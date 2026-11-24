@@ -1,10 +1,9 @@
 {
-  "url": "http://localhost:8765/sk-amazonika/",
+  "url": "https://webhunter-navrhy.github.io/sk-amazonika/",
   "ok": true,
   "chyby": [],
   "varovani": [
-    "Web má noindex (u ostrého webu pravděpodobně chyba)",
-    "Dotykové cíle <40 px na mobilu: 3× (např. a.skip \"Preskočiť na obsah\" 148×27; a.odkaz-svetly \"Vybrať podľa potreby\" 168×27; a \"ahoj@amazonika.sk\" 153×20)"
+    "Dotykové cíle <40 px na mobilu: 11× (např. a.skip \"Preskočiť na obsah\" 148×27; a.odkaz-svetly \"Vybrať podľa potreby\" 168×27; a.odkaz-svetly \"Pozrieť produkty →\" 126×39; a.odkaz-svetly \"Pozrieť produkty →\" 126×39)"
   ],
   "metriky": {
     "sirky": {
@@ -33,16 +32,16 @@
         "pocet_pretekajicich": 0
       }
     },
-    "preneseno_PC_MB": 0.5,
+    "preneseno_PC_MB": 0.51,
     "nejvetsi_obrazek_PC": {
       "kB": 157,
-      "url": "http://localhost:8765/sk-amazonika/img/hero-1920.webp"
+      "url": "https://webhunter-navrhy.github.io/sk-amazonika/img/hero-1920.webp"
     },
-    "snimku_PC": 7,
-    "preneseno_mobil_MB": 0.53,
+    "snimku_PC": 6,
+    "preneseno_mobil_MB": 0.54,
     "nejvetsi_obrazek_mobil": {
-      "kB": 163,
-      "url": "http://localhost:8765/sk-amazonika/img/kakao-1280.webp"
+      "kB": 164,
+      "url": "https://webhunter-navrhy.github.io/sk-amazonika/img/kakao-1280.webp"
     },
     "snimku_mobil": 8,
     "seo": {
@@ -59,12 +58,12 @@
       "canonical": true,
       "viewport": true
     },
-    "maly_dotykovy_cil": 3,
+    "maly_dotykovy_cil": 11,
     "font_nadpis": "Young Serif",
     "font_text": "Albert Sans",
     "podstranky": {
       "stranek": 1,
-      "obrazku": 20
+      "obrazku": 21
     }
   }
 }

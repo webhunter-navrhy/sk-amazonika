@@ -1,16 +1,19 @@
 {
-  "znamka": 7,
+  "znamka": 5,
   "slabiny": [
-    "Sekce „Vyberte si podľa toho, čo hľadáte“ (PC buňky 4–5, mobil 5–6): je to osm textových bloků na tmavě zelené ploše bez fotek a bez odkazů a na PC pod nimi zůstává asi 100 px prázdné tmavé plochy. Na mobilu se to táhne přes dvě obrazovky. Oprava: z každé oblasti udělat kartu s odkazem a s 1–2 miniaturami produktů, které k ní patří (packshoty už web má). Mřížku zhustit na PC do 4 sloupců a na mobilu do 2 sloupců a spodní padding zmenšit na úroveň ostatních sekcí.",
-    "Hero na mobilu (390 px, buňka 1): odstavec „Prírodné produkty priamo…“ leží přímo na etiketách lahviček „DRAČIA KRV“ a písmena etiket prosvítají mezi řádky. Oranžový nadtitulek „PERU · AMAZÓNIA · ANDY“ má na PC i mobilu na fotce slabý kontrast. Oprava: na mobilu posunout object-position fotky tak, aby lahvičky byly nad textem (nebo pod textem zesílit gradient na 70 %). Nadtitulek dát do světle krémové barvy, nebo pod něj dát tmavý podklad.",
-    "Katalog „Z pralesa do Vašej kuchyne“ (PC 2–4, mobil 2–4): web je e-shop, ale u produktů chybí cena i tlačítko a sekce končí větou „Kompletnú ponuku a ceny nájdete na amazonika.sk“, takže návrh posílá zákazníka na starý web. Poslední karta Dračia krv má místo packshotu atmosférickou fotku a mřížku tím rozbíjí. Oprava: doplnit ke každé kartě cenu z amazonika.sk a odkaz „Do košíka / Detail“, větu nahradit tlačítkem „Celá ponuka“. U Dračej krvi použít packshot lahvičky na bílém pozadí jako u ostatních. Na mobilu doplnit menu (hamburger): teď je v hlavičce jen „Napísať nám“ a sekce Produkty, Podľa potreby a Príbeh na mobilu nejdou otevřít z menu."
+    "Hlavička na mobilu (390 px, buňky 1–8): nový řádek menu „Produkty · Podľa potreby · Príbeh · Kontakt“ leží pod tmavým pruhem hlavičky. V buňkách 4–6 se při scrollu jeho text kreslí přímo přes nadpis „…toho, čo hľadáte“ a přes texty karet, v buňce 2 je řádek napůl ořízlý. Logo AMAZONIKA má navíc uříznutý horní řádek písmen. Oprava: dát pozadí hlavičky přes oba řádky (výška auto, tmavé pozadí, padding-top asi 10 px), aby bylo logo celé. Zvýšit scroll-margin-top u kotev. Lepší je tenhle řádek nahradit hamburgerem vpravo vedle „Napísať nám“.",
+    "Katalog „Z pralesa do Vašej kuchyne“ (PC buňky 2–4, mobil 2–4): u karet pořád chybí cena a odkaz „Detail / Do košíka“. Poslední karta Dračia krv má pořád atmosférickou fotku lahviček v mechu místo packshotu, takže mřížka s bílými packshoty se rozbíjí. Oprava: ke každé kartě doplnit cenu z amazonika.sk a textový odkaz „Detail →“. U Dračej krvi použít packshot jedné lahvičky na bílém pozadí ve stejném ořezu jako ostatní.",
+    "Sekce „Vyberte si podľa toho, čo hľadáte“ (PC buňky 4–5, mobil 5–6): 4 sloupce, 2 sloupce na mobilu a odkazy „Pozrieť produkty →“ jsou hotové, ale karty jsou pořád jen text na tmavě zelené ploše bez miniatur. Na mobilu se sekce táhne přes dvě obrazovky. Oprava: do každé oblasti dát 1–2 malé packshoty (např. Srdce a cievy → Sacha Inchi, Pokožka → Aguaje, Močové orgány → Chanca Piedra). Popisy na mobilu zkrátit na jeden řádek a odkazy „Pozrieť produkty →“ zvětšit na dotykovou výšku aspoň 44 px (QA hlásí 39 px)."
   ],
-  "zavazne": [],
+  "zavazne": [
+    "Mobilní hlavička (390 px, buňky 2–6): řádek menu je mimo pozadí hlavičky a při scrollu se jeho text kreslí přes obsah sekcí. Logo je nahoře uříznuté. Hlavička je na každé obrazovce mobilu rozbitá a nečitelná."
+  ],
   "silne": [
-    "Brand drží: logo AMA ZON IKA je vlevo v hlavičce, paleta je tmavě zelená a oranžová a jsou použité skutečné packshoty a produktové rendery v pralese se značkovými etiketami.",
-    "Hero má atmosféru a je hned jasné, co firma prodává. Young Serif s Albert Sans má správnou slovenskou diakritiku a dobrou hierarchii.",
-    "QA je čistá: nic nepřetéká na žádné z 6 šířek, web je lehký (0,5 MB), kontakt e-mailem a formulář jsou na stránce a v patičce je IČO firmy."
+    "Logo, tmavě zelená a oranžová barva klienta a jeho vlastní packshoty dávají webu jasný brand e-shopu s amazonskými produkty.",
+    "Nadtitulek v hero je teď krémový a čitelný a odstavec v hero na mobilu leží na tmavším gradientu.",
+    "Na PC jsou oblasti potřeb ve 4 sloupcích se spodním okrajem jako u ostatních sekcí. Věta o starém webu je nahrazená tlačítkem „Celá ponuka v e-shope“.",
+    "Reálná fotka sběračky kakaa v sekci „Cesta vitality a harmónie“. Jednoduchý kontakt: e-mail a formulář. Žádné přetečení na 6 šířkách a diakritika ve fontu Young Serif je v pořádku."
   ],
-  "verdikt": "Korektní web s atmosférou, který drží brand, ale e-shop bez cen a nákupní cesty a dlouhý textový blok kategorií na tmavém pozadí z něj dělají spíš katalogovou šablonu. Před odesláním opravit katalog, kategorie a hero na mobilu.",
-  "_hash": "770eb7e222daf57693f69852b6ea3c03420736e7"
+  "verdikt": "Hero je opravený a na PC je opravená i sekce potřeb, ale nové mobilní menu rozbilo hlavičku: přetéká přes obsah a logo je uříznuté. V katalogu pořád chybí ceny a packshot Dračej krvi. Opravit hlavičku jako hamburger, doplnit katalog a miniatury v sekci potřeb a poslat do dalšího kola.",
+  "_hash": "a8b5c0f5584546fbd6784d547df1b72c663861a4"
 }
