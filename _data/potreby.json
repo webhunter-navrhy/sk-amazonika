@@ -1,34 +1,50 @@
 [
   {
     "nazev": "Hlava a psychika",
-    "text": "Stres a napätie, únava a vyčerpanie, duševná pohoda, koncentrácia, podpora relaxácie"
+    "text": "Stres a napätie, únava a vyčerpanie, duševná pohoda, koncentrácia, podpora relaxácie",
+    "kratce": "Stres, únava, koncentrácia",
+    "foto": "maca"
   },
   {
     "nazev": "Srdce a cievy",
-    "text": "Krvný obeh, cholesterol, cievy a žily"
+    "text": "Krvný obeh, cholesterol, cievy a žily",
+    "kratce": "Krvný obeh a cievy",
+    "foto": "sacha"
   },
   {
     "nazev": "Pokožka",
-    "text": "Čistá pleť, suchá pokožka, pokožka a nechty, výživa pokožky, citlivá pokožka"
+    "text": "Čistá pleť, suchá pokožka, pokožka a nechty, výživa pokožky, citlivá pokožka",
+    "kratce": "Pleť, nechty, výživa pokožky",
+    "foto": "aguaje"
   },
   {
     "nazev": "Telo a orgány",
-    "text": "Vitalita a regenerácia, dýchacie cesty, nedostatok energie, žalúdok, pečeň, žlčník"
+    "text": "Vitalita a regenerácia, dýchacie cesty, nedostatok energie, žalúdok, pečeň, žlčník",
+    "kratce": "Vitalita, dýchacie cesty",
+    "foto": "caihua"
   },
   {
     "nazev": "Močové a pohlavné orgány",
-    "text": "Menštruačný cyklus, menopauza, močové ústrojenstvo, libido a vitalita, prostata, intímne zdravie"
+    "text": "Menštruačný cyklus, menopauza, močové ústrojenstvo, libido a vitalita, prostata, intímne zdravie",
+    "kratce": "Menštruačný cyklus, menopauza",
+    "foto": "chanca"
   },
   {
     "nazev": "Rovnováha v tele",
-    "text": "Hormonálna rovnováha, očistné kúry, zotavenie, sezónna odolnosť, ženské zdravie, imunita"
+    "text": "Hormonálna rovnováha, očistné kúry, zotavenie, sezónna odolnosť, ženské zdravie, imunita",
+    "kratce": "Hormonálna rovnováha, imunita",
+    "foto": "unadegato"
   },
   {
     "nazev": "Trávenie a metabolizmus",
-    "text": "Očista organizmu, hmotnosť a postava, trávenie, metabolizmus, obličky a žlčník, črevá, bylinná očista"
+    "text": "Očista organizmu, hmotnosť a postava, trávenie, metabolizmus, obličky a žlčník, črevá, bylinná očista",
+    "kratce": "Očista, trávenie, metabolizmus",
+    "foto": "guanabana"
   },
   {
     "nazev": "Kosti, svaly a kĺby",
-    "text": "Kĺby a kosti, pohyblivosť kĺbov, svaly, pevné kosti"
+    "text": "Kĺby a kosti, pohyblivosť kĺbov, svaly, pevné kosti",
+    "kratce": "Kĺby, kosti, svaly",
+    "foto": "sangruna"
   }
 ]

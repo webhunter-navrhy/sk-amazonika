@@ -3,60 +3,80 @@
     "foto": "maca",
     "nazev": "Maca čierna",
     "popis": "Čierny ekotyp andskej superpotraviny Lepidium meyenii z peruánskych Ánd.",
-    "forma": "Prášky a kapsule"
+    "forma": "Prášky a kapsule",
+    "cena": "14,69",
+    "url": "https://www.amazonika.sk/maca/"
   },
   {
     "foto": "chanca",
     "nazev": "Chanca Piedra",
     "popis": "V preklade „lámač kameňov“, drobná bylina tropických pralesov Južnej Ameriky.",
-    "forma": "Kapsule"
+    "forma": "Kapsule",
+    "cena": "7,90",
+    "url": "https://www.amazonika.sk/chanca-piedra/"
   },
   {
     "foto": "aguaje",
     "nazev": "Aguaje",
     "popis": "Ovocie amazónskej palmy Mauritia flexuosa, známe aj ako buriti. Ženská krása.",
-    "forma": "Kapsule a prášok"
+    "forma": "Kapsule a prášok",
+    "cena": "18,90",
+    "url": "https://www.amazonika.sk/aguaje/"
   },
   {
     "foto": "guanabana",
     "nazev": "Guanabana",
     "popis": "Známa aj ako graviola (Annona muricata), tropický ovocný strom Južnej Ameriky.",
-    "forma": "Kapsule"
+    "forma": "Kapsule",
+    "cena": "18,90",
+    "url": "https://www.amazonika.sk/guanabana--graviola--kapsule/"
   },
   {
     "foto": "sacha",
     "nazev": "Sacha Inchi",
     "popis": "„Arašid Inkov“ z peruánskej Amazónie. Za studena lisovaný olej zo semien.",
-    "forma": "Kapsule a olej"
+    "forma": "Kapsule a olej",
+    "cena": "18,49",
+    "url": "https://www.amazonika.sk/sacha-inchi-olej-250-ml/"
   },
   {
     "foto": "caihua",
     "nazev": "Caihua",
     "popis": "Andská uhorka (Cyclanthera pedata), tradičná plodina vysokohorských oblastí Peru.",
-    "forma": "Kapsule a prášok"
+    "forma": "Kapsule a prášok",
+    "cena": "18,90",
+    "url": "https://www.amazonika.sk/caihua-kapsule/"
   },
   {
     "foto": "unadegato",
     "nazev": "Uña de Gato",
     "popis": "Mačací pazúr, liana pralesov Peru.",
-    "forma": "Čaj a kapsule"
+    "forma": "Tablety, kapsule a čaj",
+    "cena": "19,69",
+    "url": "https://www.amazonika.sk/una-de-gato-tablety/"
   },
   {
     "foto": "sangruna",
     "nazev": "SangrUña",
     "popis": "Uña de Gato a Dračia krv v jednej kapsule.",
-    "forma": "Kapsule"
+    "forma": "Kapsule",
+    "cena": "18,90",
+    "url": "https://www.amazonika.sk/oroverde-sangruna/"
   },
   {
     "foto": "palosanto",
     "nazev": "Palo Santo",
     "popis": "Posvätné drevo (Bursera graveolens), ktoré obyvatelia Peru a Ekvádoru pália po stáročia.",
-    "forma": "Drevo a vonné tyčinky"
+    "forma": "Drevo a vonné tyčinky",
+    "cena": "7,50",
+    "url": "https://www.amazonika.sk/palo-santo-drievka-50-g/"
   },
   {
     "foto": "dracia",
     "nazev": "Dračia krv",
     "popis": "Červená živica stromu Croton lechleri z amazónskeho pralesa.",
-    "forma": "Tinktúra"
+    "forma": "Tinktúra",
+    "cena": "7,90",
+    "url": "https://www.amazonika.sk/draciakrv/"
   }
 ]

@@ -26,6 +26,8 @@
         <h3>{{ p.nazev }}</h3>
         <p>{{ p.popis }}</p>
         <p class="forma">{{ p.forma }}</p>
+        <p class="cena">od {{ p.cena }} €</p>
+        <a class="detail" href="{{ p.url }}" rel="noopener" aria-label="Detail produktu {{ p.nazev }} v e-shope">Detail →</a>
       </li>
       {% endfor %}
     </ul>
@@ -41,7 +43,7 @@
     </header>
     <ul class="potreby" role="list">
       {% for p in data.potreby %}
-      <li><h3>{{ p.nazev }}</h3><p>{{ p.text }}</p><a class="odkaz-svetly dalej" href="#produkty">Pozrieť produkty →</a></li>
+      <li><div class="pot-hlava">{{ img(p.foto ~ ('.jpg' if p.foto in ['maca','chanca','aguaje','guanabana','sacha','caihua','palosanto','sangruna','unadegato','dracia'] else '.png'), '', sizes='64px') }}<h3>{{ p.nazev }}</h3></div><p><span class="dlouhy">{{ p.text }}</span><span class="kratky">{{ p.kratce }}</span></p><a class="odkaz-svetly dalej" href="#produkty">Pozrieť produkty →</a></li>
       {% endfor %}
     </ul>
   </div>

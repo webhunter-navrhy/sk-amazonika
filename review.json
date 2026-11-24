@@ -1,19 +1,17 @@
 {
-  "znamka": 5,
+  "znamka": 7,
   "slabiny": [
-    "Hlavička na mobilu (390 px, buňky 1–8): nový řádek menu „Produkty · Podľa potreby · Príbeh · Kontakt“ leží pod tmavým pruhem hlavičky. V buňkách 4–6 se při scrollu jeho text kreslí přímo přes nadpis „…toho, čo hľadáte“ a přes texty karet, v buňce 2 je řádek napůl ořízlý. Logo AMAZONIKA má navíc uříznutý horní řádek písmen. Oprava: dát pozadí hlavičky přes oba řádky (výška auto, tmavé pozadí, padding-top asi 10 px), aby bylo logo celé. Zvýšit scroll-margin-top u kotev. Lepší je tenhle řádek nahradit hamburgerem vpravo vedle „Napísať nám“.",
-    "Katalog „Z pralesa do Vašej kuchyne“ (PC buňky 2–4, mobil 2–4): u karet pořád chybí cena a odkaz „Detail / Do košíka“. Poslední karta Dračia krv má pořád atmosférickou fotku lahviček v mechu místo packshotu, takže mřížka s bílými packshoty se rozbíjí. Oprava: ke každé kartě doplnit cenu z amazonika.sk a textový odkaz „Detail →“. U Dračej krvi použít packshot jedné lahvičky na bílém pozadí ve stejném ořezu jako ostatní.",
-    "Sekce „Vyberte si podľa toho, čo hľadáte“ (PC buňky 4–5, mobil 5–6): 4 sloupce, 2 sloupce na mobilu a odkazy „Pozrieť produkty →“ jsou hotové, ale karty jsou pořád jen text na tmavě zelené ploše bez miniatur. Na mobilu se sekce táhne přes dvě obrazovky. Oprava: do každé oblasti dát 1–2 malé packshoty (např. Srdce a cievy → Sacha Inchi, Pokožka → Aguaje, Močové orgány → Chanca Piedra). Popisy na mobilu zkrátit na jeden řádek a odkazy „Pozrieť produkty →“ zvětšit na dotykovou výšku aspoň 44 px (QA hlásí 39 px)."
+    "Katalóg „Z pralesa do Vašej kuchyne“ (PC bunky 2–4, mobil 2–4): pri kartách stále chýba cena aj odkaz „Detail →“. E-shop bez ceny nepredáva. Ku každej karte treba doplniť cenu z amazonika.sk pod názov a pod typ balenia dať textový odkaz „Detail →“ s dotykovou výškou aspoň 44 px, ktorý vedie na produkt v e-shope.",
+    "Katalóg, posledná karta Dračia krv (PC bunka 3, mobil bunka 4): stále je tam atmosférická fotka troch fľaštičiek v machu, kým všetky ostatné karty majú packshot na bielom pozadí, takže mriežka sa na konci rozpadá. Treba použiť packshot jednej fľaštičky na bielom pozadí v rovnakom pomere a orezaní ako Maca či Chanca Piedra. Atmosférickú fotku stačí nechať v hero.",
+    "Sekcia „Vyberte si podľa toho, čo hľadáte“ (PC bunky 4–5, mobil bunky 4–6): karty sú stále len text na tmavozelenej ploche bez miniatúr a na mobile sa sekcia ťahá cez takmer tri obrazovky. Do každej oblasti treba dať 1–2 malé packshoty (Srdce a cievy → Sacha Inchi, Pokožka → Aguaje, Močové orgány → Chanca Piedra). Popisy na 390 px treba skrátiť na jeden riadok, napr. „Stres, únava, koncentrácia“. Odkazy „Pozrieť produkty →“ už dotykovú výšku spĺňajú."
   ],
-  "zavazne": [
-    "Mobilní hlavička (390 px, buňky 2–6): řádek menu je mimo pozadí hlavičky a při scrollu se jeho text kreslí přes obsah sekcí. Logo je nahoře uříznuté. Hlavička je na každé obrazovce mobilu rozbitá a nečitelná."
-  ],
+  "zavazne": [],
   "silne": [
-    "Logo, tmavě zelená a oranžová barva klienta a jeho vlastní packshoty dávají webu jasný brand e-shopu s amazonskými produkty.",
-    "Nadtitulek v hero je teď krémový a čitelný a odstavec v hero na mobilu leží na tmavším gradientu.",
-    "Na PC jsou oblasti potřeb ve 4 sloupcích se spodním okrajem jako u ostatních sekcí. Věta o starém webu je nahrazená tlačítkem „Celá ponuka v e-shope“.",
-    "Reálná fotka sběračky kakaa v sekci „Cesta vitality a harmónie“. Jednoduchý kontakt: e-mail a formulář. Žádné přetečení na 6 šířkách a diakritika ve fontu Young Serif je v pořádku."
+    "Mobilná hlavička je opravená. Tmavé pozadie teraz kryje oba riadky (logo s tlačidlom „Napísať nám“ aj riadok menu) a pri scrollovaní sa už text menu nekreslí cez obsah sekcií.",
+    "Brand sedí: logo AMAZONIKA vľavo, tmavozelená s oranžovým akcentom, vlastné packshoty a fotky z Peru (pestovateľka kakaa, produkty v pralese).",
+    "Typografia Young Serif + Albert Sans je čitateľná, slovenská diakritika sa kreslí správne a hierarchia nadpisov je jasná na PC aj na mobile.",
+    "Kontakt je jednoduchý: e-mail ahoj@amazonika.sk, krátky formulár a CTA „Napísať nám“ v hlavičke na každej obrazovke. Nikde nič nepreteká (všetkých 6 šírok je bez pretečenia)."
   ],
-  "verdikt": "Hero je opravený a na PC je opravená i sekce potřeb, ale nové mobilní menu rozbilo hlavičku: přetéká přes obsah a logo je uříznuté. V katalogu pořád chybí ceny a packshot Dračej krvi. Opravit hlavičku jako hamburger, doplnit katalog a miniatury v sekci potřeb a poslat do dalšího kola.",
-  "_hash": "a8b5c0f5584546fbd6784d547df1b72c663861a4"
+  "verdikt": "Závažná vada mobilnej hlavičky je opravená, web je čitateľný a nič nie je rozbité. V katalógu však stále chýbajú ceny a odkazy na detail, Dračia krv rozbíja mriežku packshotov a sekcia podľa potreby nemá produkty a na mobile je príliš dlhá, preto ešte nie je na odoslanie.",
+  "_hash": "db4e459eb6af19e62911a593d98619cddcdd6a11"
 }
