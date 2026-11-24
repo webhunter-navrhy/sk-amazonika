@@ -87,3 +87,6 @@ a{color:inherit}
 .pot-hlava img{width:56px;height:56px;flex:none;border-radius:50%;object-fit:cover;background:#fff}
 .potreby .kratky{display:none}
 @media (max-width:60rem){.potreby .dlouhy{display:none}.potreby .kratky{display:inline}.potreby li{padding:.8rem 0}.potreby li p{margin-top:.3rem}.potreby .dalej{margin-top:.2rem}}
+.potreby li,.pot-hlava h3{min-width:0}
+@media (max-width:60rem){.potreby{grid-template-columns:1fr}.pot-hlava img{width:44px;height:44px}.pot-hlava h3{font-size:1.2rem}}
+@media (min-width:60.01rem) and (max-width:75rem){.potreby{column-gap:1.5rem}}
