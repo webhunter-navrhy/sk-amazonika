@@ -32,18 +32,18 @@
         "pocet_pretekajicich": 0
       }
     },
-    "preneseno_PC_MB": 0.51,
+    "preneseno_PC_MB": 0.47,
     "nejvetsi_obrazek_PC": {
       "kB": 157,
       "url": "https://webhunter-navrhy.github.io/sk-amazonika/img/hero-1920.webp"
     },
-    "snimku_PC": 6,
-    "preneseno_mobil_MB": 0.54,
+    "snimku_PC": 7,
+    "preneseno_mobil_MB": 0.51,
     "nejvetsi_obrazek_mobil": {
-      "kB": 164,
+      "kB": 163,
       "url": "https://webhunter-navrhy.github.io/sk-amazonika/img/kakao-1280.webp"
     },
-    "snimku_mobil": 8,
+    "snimku_mobil": 9,
     "seo": {
       "title": "Amazonika – byliny a superpotraviny z peruánskej Amazónie",
       "description": "Amazonika: byliny, superpotraviny, ceremoniálne kakao a Palo Santo z peruánskej Amazónie. Slovenský ",

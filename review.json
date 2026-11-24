@@ -1,17 +1,17 @@
 {
-  "znamka": 7,
+  "znamka": 8,
   "slabiny": [
-    "Katalóg „Z pralesa do Vašej kuchyne“ (PC bunky 2–4, mobil 2–4): pri kartách stále chýba cena aj odkaz „Detail →“. E-shop bez ceny nepredáva. Ku každej karte treba doplniť cenu z amazonika.sk pod názov a pod typ balenia dať textový odkaz „Detail →“ s dotykovou výškou aspoň 44 px, ktorý vedie na produkt v e-shope.",
-    "Katalóg, posledná karta Dračia krv (PC bunka 3, mobil bunka 4): stále je tam atmosférická fotka troch fľaštičiek v machu, kým všetky ostatné karty majú packshot na bielom pozadí, takže mriežka sa na konci rozpadá. Treba použiť packshot jednej fľaštičky na bielom pozadí v rovnakom pomere a orezaní ako Maca či Chanca Piedra. Atmosférickú fotku stačí nechať v hero.",
-    "Sekcia „Vyberte si podľa toho, čo hľadáte“ (PC bunky 4–5, mobil bunky 4–6): karty sú stále len text na tmavozelenej ploche bez miniatúr a na mobile sa sekcia ťahá cez takmer tri obrazovky. Do každej oblasti treba dať 1–2 malé packshoty (Srdce a cievy → Sacha Inchi, Pokožka → Aguaje, Močové orgány → Chanca Piedra). Popisy na 390 px treba skrátiť na jeden riadok, napr. „Stres, únava, koncentrácia“. Odkazy „Pozrieť produkty →“ už dotykovú výšku spĺňajú."
+    "Hero a kontakt na mobile (390 px): podľa QA má odkaz „Vybrať podľa potreby“ výšku len 27 px a e-mail ahoj@amazonika.sk v sekcii „Napíšte nám“ len 20 px. Obom treba dať padding (napr. padding-block: 10px; display: inline-block), aby mali dotykovú výšku aspoň 44 px.",
+    "Katalóg na PC (bunky 3–4): posledný riadok s Palo Santo a Dračia krv zaberá len 2 zo 4 stĺpcov a tlačidlo „Celá ponuka v e-shope“ visí osamote pod nimi. Tlačidlo treba presunúť do voľného miesta v tom riadku ako tretiu dlaždicu (svetlá plocha, text „Celá ponuka →“), aby mriežka nekončila dierou.",
+    "Pätička a JSON-LD: IČO 43846432 a mesto Piešťany v brief.json nie sú (IČO aj adresa sú v poli „chybi“). Pred odoslaním ich treba overiť v obchodných podmienkach amazonika.sk alebo v ORSR. Ak sa nepotvrdia, z pätičky aj zo site.json ich treba odstrániť a nechať len „NAVIGA, s. r. o.“."
   ],
   "zavazne": [],
   "silne": [
-    "Mobilná hlavička je opravená. Tmavé pozadie teraz kryje oba riadky (logo s tlačidlom „Napísať nám“ aj riadok menu) a pri scrollovaní sa už text menu nekreslí cez obsah sekcií.",
-    "Brand sedí: logo AMAZONIKA vľavo, tmavozelená s oranžovým akcentom, vlastné packshoty a fotky z Peru (pestovateľka kakaa, produkty v pralese).",
-    "Typografia Young Serif + Albert Sans je čitateľná, slovenská diakritika sa kreslí správne a hierarchia nadpisov je jasná na PC aj na mobile.",
-    "Kontakt je jednoduchý: e-mail ahoj@amazonika.sk, krátky formulár a CTA „Napísať nám“ v hlavičke na každej obrazovke. Nikde nič nepreteká (všetkých 6 šírok je bez pretečenia)."
+    "Všetky tri minulé výhrady sú opravené. Karty katalógu majú cenu „od … €“ aj odkaz „Detail →“. Dračia krv je packshot jednej fľaštičky na bielom pozadí, takže mriežka je jednotná. V sekcii „Podľa potreby“ sú miniatúry produktov a na mobile majú jednoriadkové popisy.",
+    "Brand drží: logo Amazonika vľavo v hlavičke, oranžová #f77c00 na CTA, zelené štítky a fotky z e-shopu klienta. Zapadá do toho tmavozelená pralesná atmosféra s krémovým katalógom.",
+    "Hero s fľaštičkami Dračej krvi v machu a sekcia o pôvode s kakaom a farmárkou dávajú webu jasný koncept „z pralesa“. Je to výrazne lepšie ako pôvodný Shoptet.",
+    "Na mobile nič nepreteká na 390 ani na 360 px. Hlavička s CTA „Napísať nám“ je stále viditeľná a katalóg v dvoch stĺpcoch sa dobre číta."
   ],
-  "verdikt": "Závažná vada mobilnej hlavičky je opravená, web je čitateľný a nič nie je rozbité. V katalógu však stále chýbajú ceny a odkazy na detail, Dračia krv rozbíja mriežku packshotov a sekcia podľa potreby nemá produkty a na mobile je príliš dlhá, preto ešte nie je na odoslanie.",
-  "_hash": "db4e459eb6af19e62911a593d98619cddcdd6a11"
+  "verdikt": "Výhrady z minulého kola sú opravené a závažná vada tam nie je. Návrh je v štýle klienta, predajný a pripravený na odoslanie. Pred odoslaním treba len overiť IČO a Piešťany v pätičke a zväčšiť dva malé dotykové odkazy.",
+  "_hash": "7cb71a32d4a7e21565a0e1e4ca503051c3e2388b"
 }
