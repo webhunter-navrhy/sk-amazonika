@@ -1,0 +1,16 @@
+{
+  "znamka": 7,
+  "slabiny": [
+    "Sekce „Vyberte si podľa toho, čo hľadáte“ (PC buňky 4–5, mobil 5–6): je to osm textových bloků na tmavě zelené ploše bez fotek a bez odkazů a na PC pod nimi zůstává asi 100 px prázdné tmavé plochy. Na mobilu se to táhne přes dvě obrazovky. Oprava: z každé oblasti udělat kartu s odkazem a s 1–2 miniaturami produktů, které k ní patří (packshoty už web má). Mřížku zhustit na PC do 4 sloupců a na mobilu do 2 sloupců a spodní padding zmenšit na úroveň ostatních sekcí.",
+    "Hero na mobilu (390 px, buňka 1): odstavec „Prírodné produkty priamo…“ leží přímo na etiketách lahviček „DRAČIA KRV“ a písmena etiket prosvítají mezi řádky. Oranžový nadtitulek „PERU · AMAZÓNIA · ANDY“ má na PC i mobilu na fotce slabý kontrast. Oprava: na mobilu posunout object-position fotky tak, aby lahvičky byly nad textem (nebo pod textem zesílit gradient na 70 %). Nadtitulek dát do světle krémové barvy, nebo pod něj dát tmavý podklad.",
+    "Katalog „Z pralesa do Vašej kuchyne“ (PC 2–4, mobil 2–4): web je e-shop, ale u produktů chybí cena i tlačítko a sekce končí větou „Kompletnú ponuku a ceny nájdete na amazonika.sk“, takže návrh posílá zákazníka na starý web. Poslední karta Dračia krv má místo packshotu atmosférickou fotku a mřížku tím rozbíjí. Oprava: doplnit ke každé kartě cenu z amazonika.sk a odkaz „Do košíka / Detail“, větu nahradit tlačítkem „Celá ponuka“. U Dračej krvi použít packshot lahvičky na bílém pozadí jako u ostatních. Na mobilu doplnit menu (hamburger): teď je v hlavičce jen „Napísať nám“ a sekce Produkty, Podľa potreby a Príbeh na mobilu nejdou otevřít z menu."
+  ],
+  "zavazne": [],
+  "silne": [
+    "Brand drží: logo AMA ZON IKA je vlevo v hlavičce, paleta je tmavě zelená a oranžová a jsou použité skutečné packshoty a produktové rendery v pralese se značkovými etiketami.",
+    "Hero má atmosféru a je hned jasné, co firma prodává. Young Serif s Albert Sans má správnou slovenskou diakritiku a dobrou hierarchii.",
+    "QA je čistá: nic nepřetéká na žádné z 6 šířek, web je lehký (0,5 MB), kontakt e-mailem a formulář jsou na stránce a v patičce je IČO firmy."
+  ],
+  "verdikt": "Korektní web s atmosférou, který drží brand, ale e-shop bez cen a nákupní cesty a dlouhý textový blok kategorií na tmavém pozadí z něj dělají spíš katalogovou šablonu. Před odesláním opravit katalog, kategorie a hero na mobilu.",
+  "_hash": "770eb7e222daf57693f69852b6ea3c03420736e7"
+}

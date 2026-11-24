@@ -32,7 +32,7 @@ a{color:inherit}
 .hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(16,36,26,.55),rgba(16,36,26,.2) 35%,rgba(16,36,26,.88))}
 .hero-obsah{position:relative;z-index:2;padding-block:9rem 3rem}
 .hero picture,.hero img.hero-foto{z-index:0}
-.stitok{font-size:.85rem;letter-spacing:.14em;text-transform:uppercase;color:var(--oranz);margin-bottom:1rem;font-weight:600}
+.stitok{font-size:.85rem;letter-spacing:.14em;text-transform:uppercase;color:#f4efe2;text-shadow:0 1px 8px rgba(0,0,0,.6);margin-bottom:1rem;font-weight:600}
 .hero h1{font-family:var(--head);font-weight:400;font-size:clamp(2.2rem,1.4rem + 4.6vw,5rem);line-height:1.04;max-width:18ch}
 .uvod{max-width:42rem;margin-top:1.5rem;font-size:1.2rem;opacity:.94}
 .akcie{display:flex;flex-wrap:wrap;gap:1.5rem;align-items:center;margin-top:2rem}
@@ -52,8 +52,10 @@ a{color:inherit}
 .poznamka-sek{margin-top:3rem;color:var(--muted)}
 .tmava{background:var(--les);color:var(--papier)}
 .tmava .sek-hlava p{color:rgba(244,239,226,.75)}
-.potreby{display:grid;grid-template-columns:repeat(2,1fr);column-gap:3rem}
-.potreby li{border-top:1px solid rgba(244,239,226,.28);padding:1.4rem 0 1.6rem}
+.potreby{display:grid;grid-template-columns:repeat(4,1fr);column-gap:2rem}
+.potreby .dalej{display:inline-block;margin-top:.8rem;font-size:.9rem;padding-block:.5rem}
+.tmava.sekce{padding-block:clamp(3.5rem,8vw,6rem)}
+.potreby li{border-top:1px solid rgba(244,239,226,.28);padding:1.2rem 0 1.2rem}
 .potreby h3{font-family:var(--head);font-weight:400;font-size:1.4rem;color:var(--oranz)}
 .potreby p{margin-top:.4rem;opacity:.85;font-size:.98rem}
 .pribeh{display:grid;grid-template-columns:1fr 1fr;gap:clamp(2rem,6vw,6rem);align-items:center}
@@ -73,6 +75,7 @@ a{color:inherit}
 .pat p{font-size:.95rem;opacity:.9}
 .pat img{width:56px;height:56px}
 .reveal{opacity:0;transform:translateY(14px);transition:opacity .6s,transform .6s}.reveal.v{opacity:1;transform:none}
-@media (max-width:60rem){.potreby{grid-template-columns:1fr}.pribeh,.kontakt{grid-template-columns:1fr}.hlavicka nav{display:none}.hl .btn{margin-left:auto}}
-@media (max-width:30rem){.vzorky{gap:2rem 1rem;grid-template-columns:repeat(2,1fr)}.vzorka h3{font-size:1.1rem}.vzorka p{font-size:.88rem}.hero-obsah{padding-top:7rem}}
+@media (max-width:75rem){.potreby{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:60rem){.hl{flex-wrap:wrap;row-gap:0}.hlavicka nav{order:3;width:100%;display:flex!important;gap:1.1rem;overflow-x:auto;padding-bottom:.4rem}.hlavicka nav a{padding:.55rem 0;font-size:.95rem;white-space:nowrap}.hero::after{background:linear-gradient(180deg,rgba(16,36,26,.6),rgba(16,36,26,.55) 30%,rgba(16,36,26,.92))}.hero-obsah{padding-top:10rem}.pribeh,.kontakt{grid-template-columns:1fr}.hl .btn{margin-left:auto}}
+@media (max-width:30rem){.potreby li p{font-size:.92rem}.hero-foto{object-position:62% 40%}.vzorky{gap:2rem 1rem;grid-template-columns:repeat(2,1fr)}.vzorka h3{font-size:1.1rem}.vzorka p{font-size:.88rem}.hero-obsah{padding-top:7rem}}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}}

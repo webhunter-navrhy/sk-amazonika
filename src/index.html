@@ -22,14 +22,14 @@
     <ul class="vzorky" role="list">
       {% for p in data.produkty %}
       <li class="vzorka">
-        <div class="vzorka-foto">{{ img(p.foto ~ ('.jpg' if p.foto in ['maca','chanca','aguaje','guanabana','sacha','caihua','palosanto','sangruna','unadegato'] else '.png'), p.nazev, sizes='(min-width: 60rem) 22rem, 46vw') }}</div>
+        <div class="vzorka-foto">{{ img(p.foto ~ ('.jpg' if p.foto in ['maca','chanca','aguaje','guanabana','sacha','caihua','palosanto','sangruna','unadegato','dracia'] else '.png'), p.nazev, sizes='(min-width: 60rem) 22rem, 46vw') }}</div>
         <h3>{{ p.nazev }}</h3>
         <p>{{ p.popis }}</p>
         <p class="forma">{{ p.forma }}</p>
       </li>
       {% endfor %}
     </ul>
-    <p class="poznamka-sek">Kompletnú ponuku a ceny nájdete na amazonika.sk.</p>
+    <p class="poznamka-sek"><a class="btn" href="https://amazonika.sk" rel="noopener">Celá ponuka v e-shope</a></p>
   </div>
 </section>
 
@@ -41,7 +41,7 @@
     </header>
     <ul class="potreby" role="list">
       {% for p in data.potreby %}
-      <li><h3>{{ p.nazev }}</h3><p>{{ p.text }}</p></li>
+      <li><h3>{{ p.nazev }}</h3><p>{{ p.text }}</p><a class="odkaz-svetly dalej" href="#produkty">Pozrieť produkty →</a></li>
       {% endfor %}
     </ul>
   </div>
