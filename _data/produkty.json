@@ -1,0 +1,62 @@
+[
+  {
+    "foto": "maca",
+    "nazev": "Maca čierna",
+    "popis": "Čierny ekotyp andskej superpotraviny Lepidium meyenii z peruánskych Ánd.",
+    "forma": "Prášky a kapsule"
+  },
+  {
+    "foto": "chanca",
+    "nazev": "Chanca Piedra",
+    "popis": "V preklade „lámač kameňov“, drobná bylina tropických pralesov Južnej Ameriky.",
+    "forma": "Kapsule"
+  },
+  {
+    "foto": "aguaje",
+    "nazev": "Aguaje",
+    "popis": "Ovocie amazónskej palmy Mauritia flexuosa, známe aj ako buriti. Ženská krása.",
+    "forma": "Kapsule a prášok"
+  },
+  {
+    "foto": "guanabana",
+    "nazev": "Guanabana",
+    "popis": "Známa aj ako graviola (Annona muricata), tropický ovocný strom Južnej Ameriky.",
+    "forma": "Kapsule"
+  },
+  {
+    "foto": "sacha",
+    "nazev": "Sacha Inchi",
+    "popis": "„Arašid Inkov“ z peruánskej Amazónie. Za studena lisovaný olej zo semien.",
+    "forma": "Kapsule a olej"
+  },
+  {
+    "foto": "caihua",
+    "nazev": "Caihua",
+    "popis": "Andská uhorka (Cyclanthera pedata), tradičná plodina vysokohorských oblastí Peru.",
+    "forma": "Kapsule a prášok"
+  },
+  {
+    "foto": "unadegato",
+    "nazev": "Uña de Gato",
+    "popis": "Mačací pazúr, liana pralesov Peru.",
+    "forma": "Čaj a kapsule"
+  },
+  {
+    "foto": "sangruna",
+    "nazev": "SangrUña",
+    "popis": "Uña de Gato a Dračia krv v jednej kapsule.",
+    "forma": "Kapsule"
+  },
+  {
+    "foto": "palosanto",
+    "nazev": "Palo Santo",
+    "popis": "Posvätné drevo (Bursera graveolens), ktoré obyvatelia Peru a Ekvádoru pália po stáročia.",
+    "forma": "Drevo a vonné tyčinky"
+  },
+  {
+    "foto": "dracia",
+    "nazev": "Dračia krv",
+    "popis": "Červená živica stromu Croton lechleri z amazónskeho pralesa.",
+    "forma": "Tinktúra"
+  }
+]

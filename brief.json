@@ -1,0 +1,650 @@
+{
+ "slug": "amazonika",
+ "zdroj_url": "https://www.amazonika.sk",
+ "firma": "NAVIGA, s. r. o. (Amazonika)",
+ "obor": [
+  "e-shop / obchod",
+  "stavebnictví a řemesla"
+ ],
+ "ico": "",
+ "ares": null,
+ "kontakty": {
+  "emaily": [
+   "ahoj@amazonika.sk",
+   "info@shoptak.cz"
+  ],
+  "telefony": [
+   "+421949021133"
+  ],
+  "adresa": "",
+  "socialni_site": [
+   "https://www.facebook.com/amazonika.sk",
+   "https://www.instagram.com/amazonika.sk/"
+  ]
+ },
+ "logo": {
+  "soubor": "podklady/logo.png",
+  "zdroj": "https://cdn.myshoptet.com/usr/www.amazonika.sk/user/logos/amazonika_logo_positive_2x.png",
+  "rozmery": [
+   1967,
+   1999
+  ]
+ },
+ "barvy": {
+  "css_promenne": {},
+  "z_css": [
+   "#009901",
+   "#f77c00",
+   "#ced42c",
+   "#468c98",
+   "#cb0000",
+   "#e0dab7"
+  ],
+  "z_loga": [],
+  "theme_color": null,
+  "doporucene": [
+   "#009901",
+   "#f77c00"
+  ]
+ },
+ "fotky": [
+  {
+   "soubor": "podklady/foto/foto-01.jpg",
+   "url": "https://cdn.myshoptet.com/usr/www.amazonika.sk/user/banners/hf_20260305_091622_863748c3-62fc-43e0-8ea9-b95498c5047c-2.jpg?69a95dac",
+   "sirka": 2752,
+   "vyska": 1536,
+   "alt": "Dračia krv"
+  },
+  {
+   "soubor": "podklady/foto/foto-02.png",
+   "url": "https://cdn.myshoptet.com/usr/www.amazonika.sk/user/banners/0a9d04f7-fc15-45a0-a0e8-f27196e8a46f-min.png?691723bc",
+   "sirka": 1344,
+   "vyska": 768,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-03.jpg",
+   "url": "https://cdn.myshoptet.com/usr/www.amazonika.sk/user/banners/dsc_4694-min.jpg?67d0a5bd",
+   "sirka": 7854,
+   "vyska": 4414,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-04.png",
+   "url": "https://cdn.myshoptet.com/usr/www.amazonika.sk/user/banners/33ac4cfa-c285-4ebd-9563-19f90ea6d6df-min.png?69171e33",
+   "sirka": 1344,
+   "vyska": 768,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-05.png",
+   "url": "https://cdn.myshoptet.com/usr/www.amazonika.sk/user/banners/760c977b-2f37-429c-be6e-1866ebef7ea5-min.png?69171aa6",
+   "sirka": 1344,
+   "vyska": 768,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-06.png",
+   "url": "https://cdn.myshoptet.com/usr/www.amazonika.sk/user/banners/ad904e44-9e92-44eb-b5d7-d4604612516c-min.png?6996e7a6",
+   "sirka": 768,
+   "vyska": 1344,
+   "alt": "Dračia Krv"
+  },
+  {
+   "soubor": "podklady/foto/foto-07.png",
+   "url": "https://cdn.myshoptet.com/usr/www.amazonika.sk/user/banners/f64dbb97-3076-4ebb-8fd8-ec642ce3602a-min.png?691716c1",
+   "sirka": 768,
+   "vyska": 1344,
+   "alt": "Objavte mužskú silu -  Maca čierna"
+  },
+  {
+   "soubor": "podklady/foto/foto-08.png",
+   "url": "https://cdn.myshoptet.com/usr/www.amazonika.sk/user/banners/house-for-rent.png?67a36e2b",
+   "sirka": 512,
+   "vyska": 512,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-09.png",
+   "url": "https://cdn.myshoptet.com/usr/www.amazonika.sk/user/banners/badge.png?67a36dea",
+   "sirka": 512,
+   "vyska": 512,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-10.png",
+   "url": "https://cdn.myshoptet.com/usr/www.amazonika.sk/user/banners/100-percent_12564529.png?67a36e3f",
+   "sirka": 512,
+   "vyska": 512,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-11.png",
+   "url": "https://cdn.myshoptet.com/usr/www.amazonika.sk/user/shop/detail/403_6081849c-8a11-4210-89ae-2ed39cf14911-min.png?ff=1&x=423&y=318&q=85&ts=6917280a&sg=2175fb9d",
+   "sirka": 423,
+   "vyska": 318,
+   "alt": "6081849c 8a11 4210 89ae 2ed39cf14911 min"
+  },
+  {
+   "soubor": "podklady/foto/foto-12.png",
+   "url": "https://cdn.myshoptet.com/usr/www.amazonika.sk/user/shop/detail/364-1_4cd78dd6-cbdf-4a7b-98e0-459a22278433-min.png?ff=1&x=423&y=318&q=85&ts=6917269a&sg=2175fb9d",
+   "sirka": 423,
+   "vyska": 318,
+   "alt": "4cd78dd6 cbdf 4a7b 98e0 459a22278433 min"
+  },
+  {
+   "soubor": "podklady/foto/foto-13.png",
+   "url": "https://cdn.myshoptet.com/usr/www.amazonika.sk/user/shop/detail/361_73e16b5f-a60d-40d2-b570-71768ba1e036-min.png?ff=1&x=423&y=318&q=85&ts=691726b0&sg=2175fb9d",
+   "sirka": 423,
+   "vyska": 318,
+   "alt": "73e16b5f a60d 40d2 b570 71768ba1e036 min"
+  },
+  {
+   "soubor": "podklady/foto/foto-14.jpg",
+   "url": "https://cdn.myshoptet.com/usr/www.amazonika.sk/user/shop/detail/125-1_8846-min.jpg?ff=1&x=423&y=318&q=85&ts=686b8355&sg=2175fb9d",
+   "sirka": 423,
+   "vyska": 318,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-15.jpg",
+   "url": "https://cdn.myshoptet.com/usr/www.amazonika.sk/user/shop/detail/373_8844-min.jpg?ff=1&x=423&y=318&q=85&ts=686b821c&sg=2175fb9d",
+   "sirka": 423,
+   "vyska": 318,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-16.jpg",
+   "url": "https://cdn.myshoptet.com/usr/www.amazonika.sk/user/shop/detail/95_8845-min.jpg?ff=1&x=423&y=318&q=85&ts=686b832e&sg=2175fb9d",
+   "sirka": 423,
+   "vyska": 318,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-17.jpg",
+   "url": "https://cdn.myshoptet.com/usr/www.amazonika.sk/user/shop/detail/53_8843-min.jpg?ff=1&x=423&y=318&q=85&ts=686b8437&sg=2175fb9d",
+   "sirka": 423,
+   "vyska": 318,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-18.jpg",
+   "url": "https://cdn.myshoptet.com/usr/www.amazonika.sk/user/shop/detail/62_8840-min.jpg?ff=1&x=423&y=318&q=85&ts=686b82fe&sg=2175fb9d",
+   "sirka": 423,
+   "vyska": 318,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-19.jpg",
+   "url": "https://cdn.myshoptet.com/usr/www.amazonika.sk/user/shop/detail/185_8826-min.jpg?ff=1&x=423&y=318&q=85&ts=686b82e1&sg=2175fb9d",
+   "sirka": 423,
+   "vyska": 318,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-20.jpg",
+   "url": "https://cdn.myshoptet.com/usr/www.amazonika.sk/user/shop/detail/164_8828-min.jpg?ff=1&x=423&y=318&q=85&ts=686b8268&sg=2175fb9d",
+   "sirka": 423,
+   "vyska": 318,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-21.png",
+   "url": "https://cdn.myshoptet.com/usr/www.amazonika.sk/user/shop/detail/370_3e0d7a78-c4c1-4b35-b865-09206e91075b-min.png?ff=1&x=423&y=318&q=85&ts=69172c23&sg=2175fb9d",
+   "sirka": 423,
+   "vyska": 318,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-22.jpg",
+   "url": "https://cdn.myshoptet.com/usr/www.amazonika.sk/user/shop/detail/272_8848-min.jpg?ff=1&x=423&y=318&q=85&ts=686b84ef&sg=2175fb9d",
+   "sirka": 423,
+   "vyska": 318,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-23.jpg",
+   "url": "https://cdn.myshoptet.com/usr/www.amazonika.sk/user/shop/detail/346_ticinky-web.jpg?ff=1&x=423&y=318&q=85&ts=6756fe5a&sg=2175fb9d",
+   "sirka": 423,
+   "vyska": 318,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-24.jpg",
+   "url": "https://cdn.myshoptet.com/usr/www.amazonika.sk/user/shop/detail/355-1_amazonika-drziak-na-tycinky.jpg?ff=1&x=423&y=318&q=85&ts=67570a81&sg=2175fb9d",
+   "sirka": 423,
+   "vyska": 318,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-25.jpg",
+   "url": "https://cdn.myshoptet.com/usr/www.amazonika.sk/user/shop/detail/352_1dsc-1782.jpg?ff=1&x=423&y=318&q=85&ts=6757063a&sg=2175fb9d",
+   "sirka": 423,
+   "vyska": 318,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-26.jpg",
+   "url": "https://cdn.myshoptet.com/usr/www.amazonika.sk/user/banners/2-1-min.jpg?67a344b8",
+   "sirka": 6720,
+   "vyska": 4480,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-27.jpg",
+   "url": "https://cdn.myshoptet.com/usr/www.amazonika.sk/user/shop/detail/71_8831-min.jpg?ff=1&x=423&y=318&q=85&ts=686b84ab&sg=2175fb9d",
+   "sirka": 423,
+   "vyska": 318,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-28.jpg",
+   "url": "https://cdn.myshoptet.com/usr/www.amazonika.sk/user/shop/detail/236_ib-doplnky-vune-florida-01-15510043409357-700x700-tt-90.jpg?ff=1&x=423&y=318&q=85&ts=64833736&sg=2175fb9d",
+   "sirka": 423,
+   "vyska": 318,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-29.png",
+   "url": "https://cdn.myshoptet.com/usr/www.amazonika.sk/user/shop/detail/83_536414fd-9f5e-4f5a-b6a6-9c1526468b51-min.png?ff=1&x=423&y=318&q=85&ts=69172ab1&sg=2175fb9d",
+   "sirka": 423,
+   "vyska": 318,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-30.jpg",
+   "url": "https://cdn.myshoptet.com/usr/www.amazonika.sk/user/shop/detail/59_maca-peruanska-kapsule--100-ks.jpg?ff=1&x=423&y=318&q=85&ts=64821b9c&sg=2175fb9d",
+   "sirka": 423,
+   "vyska": 318,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-31.jpg",
+   "url": "https://cdn.myshoptet.com/usr/www.amazonika.sk/user/shop/detail/179_maca-peruanska-prasok-250-g.jpg?ff=1&x=423&y=318&q=85&ts=648223b4&sg=2175fb9d",
+   "sirka": 423,
+   "vyska": 318,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-32.png",
+   "url": "https://cdn.myshoptet.com/usr/www.amazonika.sk/user/shop/detail/101_9a484f49-41bb-42c1-a83c-04a044cc2ab7-min.png?ff=1&x=423&y=318&q=85&ts=69172bc9&sg=2175fb9d",
+   "sirka": 423,
+   "vyska": 318,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-33.png",
+   "url": "https://cdn.myshoptet.com/usr/www.amazonika.sk/user/shop/detail/167_caihua-prasok-250g.png?ff=1&x=423&y=318&q=85&ts=648220f5&sg=2175fb9d",
+   "sirka": 423,
+   "vyska": 318,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-34.jpg",
+   "url": "https://cdn.myshoptet.com/usr/www.amazonika.sk/user/shop/detail/56_sangruna-vizualizace-navrh3.jpg?ff=1&x=423&y=318&q=85&ts=6479b9d1&sg=2175fb9d",
+   "sirka": 423,
+   "vyska": 318,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-35.jpg",
+   "url": "https://cdn.myshoptet.com/usr/www.amazonika.sk/user/shop/detail/191_maca-tricolor-jemne-kusky-prasok-250g.jpg?ff=1&x=423&y=318&q=85&ts=6482266d&sg=2175fb9d",
+   "sirka": 423,
+   "vyska": 318,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-36.jpg",
+   "url": "https://cdn.myshoptet.com/usr/www.amazonika.sk/user/shop/detail/314_macaci-pazur--una-de-gato--tablety--100-ks.jpg?ff=1&x=423&y=318&q=85&ts=64aec057&sg=2175fb9d",
+   "sirka": 423,
+   "vyska": 318,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-37.jpg",
+   "url": "https://cdn.myshoptet.com/usr/www.amazonika.sk/user/shop/detail/388_aguaje-zenska-krasa-prasok-kapsule.jpg?ff=1&x=423&y=318&q=85&ts=67d33316&sg=2175fb9d",
+   "sirka": 423,
+   "vyska": 318,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-38.jpg",
+   "url": "https://cdn.myshoptet.com/usr/www.amazonika.sk/user/shop/detail/400_graviola--guanabana--kapsule-caj.jpg?ff=1&x=423&y=318&q=85&ts=67d33916&sg=2175fb9d",
+   "sirka": 423,
+   "vyska": 318,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-39.jpg",
+   "url": "https://cdn.myshoptet.com/usr/www.amazonika.sk/user/shop/detail/397-1_chanca-piedra-kapsule-caj.jpg?ff=1&x=423&y=318&q=85&ts=67d337e7&sg=2175fb9d",
+   "sirka": 423,
+   "vyska": 318,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-40.jpg",
+   "url": "https://cdn.myshoptet.com/usr/www.amazonika.sk/user/shop/detail/394_macaci-pazur--una-de-gato--kapsule-caj.jpg?ff=1&x=423&y=318&q=85&ts=67d33649&sg=2175fb9d",
+   "sirka": 423,
+   "vyska": 318,
+   "alt": ""
+  }
+ ],
+ "fakta": [
+  {
+   "typ": "h2",
+   "text": "Cookie consent",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "h2",
+   "text": "Prihlásenie k vášmu účtu",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "h1",
+   "text": "Zažite silu Amazónie a objavte tajomstvá Peruánskych šamanov",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "h2",
+   "text": "Posledné komentáre",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "h2",
+   "text": "Zápätie",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Informácie pre vás",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Instagram",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Kontakt",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Facebook",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Prijímame online platby",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "ZDRAVOTNÉ INDIKÁCIE HLAVA A PSYCHIKA Stres a napätie , Únava a vyčerpanie , Duševná pohoda , Koncentrácia , Podpora relaxácie SRDCE A CIEVY Krvný obeh , Cholesterol , Cievy a žily POKOŽKA Čistá pleť , Suchá pokožka , Pokožka a nechty , Výživa pokožky , Citlivá pokožka TELO A ORGÁNY Vitalita a regenerácia , Dýchacie cesty , Nedostatok energie , Žalúdok , Pečeň , Žlčník MOČOVÉ A POHLAVNÉ ORGÁNY Menštruačný cyklus , Pred menštruáciou , Menopauza , Močové ústrojenstvo , Libido a vitalita , Prostata , Intímne zdravie ROVNOVÁHA V TELE Hormonálna rovnováha , Očistné kúry , Zotavenie , Sezónna odolnosť , Ženské zdravie , Imunita TRÁVENIE A METABOLIZMUS Očista organizmu , Hmotnosť a postava , Trávenie a zažívanie , Metabolizmus , Obličky a žlčník , Črevá , Cukry a energia , Bylinná očista KOSTI, SVALY A KĹBY Kĺby a kosti , Pohyblivosť kĺbov , Svaly , Pevné kosti",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "HLAVA A PSYCHIKA Stres a napätie , Únava a vyčerpanie , Duševná pohoda , Koncentrácia , Podpora relaxácie",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "SRDCE A CIEVY Krvný obeh , Cholesterol , Cievy a žily",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "POKOŽKA Čistá pleť , Suchá pokožka , Pokožka a nechty , Výživa pokožky , Citlivá pokožka",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "TELO A ORGÁNY Vitalita a regenerácia , Dýchacie cesty , Nedostatok energie , Žalúdok , Pečeň , Žlčník",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "MOČOVÉ A POHLAVNÉ ORGÁNY Menštruačný cyklus , Pred menštruáciou , Menopauza , Močové ústrojenstvo , Libido a vitalita , Prostata , Intímne zdravie",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "ROVNOVÁHA V TELE Hormonálna rovnováha , Očistné kúry , Zotavenie , Sezónna odolnosť , Ženské zdravie , Imunita",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "TRÁVENIE A METABOLIZMUS Očista organizmu , Hmotnosť a postava , Trávenie a zažívanie , Metabolizmus , Obličky a žlčník , Črevá , Cukry a energia , Bylinná očista",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "KOSTI, SVALY A KĹBY Kĺby a kosti , Pohyblivosť kĺbov , Svaly , Pevné kosti",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "DOPLNKY VÝŽIVY Amazónske čaje Kapsule Prášky Ceremoniálne kakao Tinktúry a Extrakty Aguaje - ženská krása Maca",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "AROMATERAPIA Vydymovadlá Spirutuálne vody Vonné tyčinky a oleje",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Maca čierna – Mužská sila je najvzácnejší čierny ekotyp andskej superpotraviny Lepidium meyenii, ktorú v Peru pestujú...",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "100 % ceremoniálne kakao z najjemnejšej odrody Criollo z divokej džungle peruánskej provincie Amazonas. Spracované...",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "100 % ceremoniálne kakao z najjemnejšej odrody Criollo, ktoré rastie priamo v divokej džungli peruánskej provincie...",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Chanca Piedra (Phyllanthus niruri), v preklade „lámač kameňov“, je drobná bylina tropických pralesov Južnej Ameriky....",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Aguaje (Mauritia flexuosa), známe aj ako buriti, je ovocie amazonskej palmy a jeden z najbohatších rastlinných...",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Guanabana, známa aj ako graviola (Annona muricata), je tropický ovocný strom Karibiku, Strednej a Južnej Ameriky,...",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Sacha Inchi (Plukenetia volubilis), známa ako arašid Inkov, je rastlina z peruánskej Amazónie. Olej z jej semien...",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Caihua (Cyclanthera pedata), známa aj ako caigua alebo andská uhorka, je tradičná plodina z vysokohorských...",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Maca čierna – Mužská sila je najvzácnejší čierny ekotyp andskej superpotraviny Lepidium meyenii z peruánskych Ánd. V...",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Aguaje (Mauritia flexuosa), známe aj ako buriti, je ovocie amazonskej palmy a jeden z najbohatších rastlinných...",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Dračia krv (Sangre de Drago) je červená živica stromu Croton lechleri z amazonského pralesa. Na pokožke rýchlo schne...",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Palo Santo (Bursera graveolens) je posvätné drevo, ktoré pôvodní obyvatelia Peru a Ekvádoru po stáročia pália pri...",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Vonné tyčinky z rozdrveného dreva Palo Santo a jeho živice, ručne vyrábané malými výrobcami z radov pôvodných...",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Ručne modelovaný ceremoniálny držiak na vonné tyčinky Pure Amazonika z Ateliéru Šťastia v Topoľčanoch.\nNa výber v...",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Šálky Amazonika sú ručne modelované z lásky v Ateliéri Šťastia v Topoľčanoch – každá má svoj vlastný, neopakovateľný...",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Dračia krv (Sangre de Drago) je červená živica stromu Croton lechleri z amazonského pralesa. Na pokožke rýchlo schne...",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Chanca Piedra (Phyllanthus niruri), v preklade „lámač kameňov“, je drobná bylina tropických pralesov Južnej Ameriky,...",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Aguaje (Mauritia flexuosa), známe aj ako buriti, je ovocie amazonskej palmy a jeden z najbohatších rastlinných...",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Maca čierna – Mužská sila je najvzácnejší čierny ekotyp andskej superpotraviny Lepidium meyenii z peruánskych Ánd. V...",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Caihua (Cyclanthera pedata), známa aj ako caigua alebo andská uhorka, je tradičná plodina z vysokohorských...",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Sacha Inchi (Plukenetia volubilis), známa ako arašid Inkov, je rastlina z peruánskej Amazónie. Olej z jej semien...",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Aqua (Cologna) de Florida - Aromatická esencia s esenciálnymi olejmi z exotických rastlín Agua de Florida ako...",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Copaiba tinktúra je prírodný výťažok zo živice stromu Copaifera officinalis, ktorý rastie v amazonskej džungli....",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Palo Santo (Bursera graveolens) je posvätné drevo, ktoré pôvodní obyvatelia Peru a Ekvádoru po stáročia pália pri...",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Maca je jednou zo superpotravín, ktoré dobyli svet pre svoje fantastické nutričné vlastnosti. Obsahuje široké...",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Maca je jednou zo superpotravín, ktoré dobyli svet pre svoje fantastické nutričné vlastnosti. Obsahuje široké...",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Sacha Inchi (Plukenetia volubilis), známa ako arašid Inkov, pochádza z Amazónie. Za studena lisovaný panenský olej z...",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Caihua (Cyclanthera pedata) je andská zelenina z čeľade tekvicovitých, ktorá sa v Peru pestuje od predinkských čias....",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "SangrUña spája v jednej kapsule dve známe rastliny amazonského pralesa – Uña de Gato (mačací pazúr) a Sangre de Drago...",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Vonné tyčinky z rozdrveného dreva Palo Santo a jeho živice, ručne vyrábané malými výrobcami z radov pôvodných...",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Dračia krv (Sangre de Drago) je červená živica stromu Croton lechleri z amazonského pralesa. Na pokožke rýchlo schne...",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "MACA TRICOLOR jemné kúsky (Lepidium meyenii Wallp.) - zmes bielej, čiernej a červenej Maca. Maca je jednou zo...",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Uňa de Gato (Uncaria tomentosa), mačací pazúr, je posvätná liana amazonského pralesa. Tablety obsahujú alkoholový...",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Caihua (Cyclanthera pedata) je andská zelenina z čeľade tekvicovitých, ktorá sa v Peru pestuje od predinkských čias....",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Maca je jednou zo superpotravín, ktoré dobyli svet pre svoje fantastické nutričné vlastnosti. Obsahuje široké...",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "ŽENSKÁ KRÁSA Výhodné balenie prášku a kapsúl Aguaje.Aguaje, tiež známe ako „Buriti\" alebo Mauritia flexuosa L., je...",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Výhodné balenieGuanabana, známa tiež ako „Graviola\", je tropický ovocný strom pôvodom z Karibiku, Strednej a Južnej...",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Chanca Piedra (Phyllanthus niruri) je uctievaná bylina tropických oblastí Južnej Ameriky. V preklade znamená „lámač...",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Výhodné balenie čaju a kapsúl Uňa de Gato\r\nUña de gato (v preklade „mačací pazúr\") je liana, ktorá rastie v pralesoch...",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "a získajte pravidelné informácie o produktoch, novinkách a špeciálnych zľavách.",
+   "zdroj": "https://www.amazonika.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Pridajte sa do fascinujúcej cesty objavovania sily Amazónie priamo z pohodlia vášho domova! Ponorte sa do mystérií peruánskych šamanov a oboznámte sa s ich starodávnymi tajomstvami, ktoré môžu oživiť vašu každodennú silu a zlepšiť vaše zdravie. Naše produkty sú starostlivo vybrané a vytvorené s ohľadom na tradičné techniky a prírodné zložky, ktoré Amazónia ponúka. Ponúkame vám možnosť zažiť úžasnú silu prírody priamo vo vašich rukách. Dovoľte nám sprevádzať vás na ceste vitality a harmónie s našou radou produktov z Amazónie.",
+   "zdroj": "https://www.amazonika.sk/"
+  }
+ ],
+ "chybi": [
+  "IČO",
+  "adresa / provozovna",
+  "potvrzení služeb a ceníku (nic nevymýšlet)"
+ ],
+ "popis_webu": "Prírodné produkty priamo z peruánskej Amazónie a Ánd: maca, aguaje, dračia krv, amazonské čaje, ceremoniálne kakao a Palo Santo. Doprava zdarma nad 75 €."
+}

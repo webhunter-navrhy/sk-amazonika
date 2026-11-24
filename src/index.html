@@ -1,0 +1,85 @@
+{% extends "_base.html" %}
+{% set titulek = 'Amazonika – byliny a superpotraviny z peruánskej Amazónie' %}
+{% set cesta = '' %}
+{% block obsah %}
+<section class="hero">
+  {{ img('hero.jpg', 'Tri sklenené fľaštičky tinktúr na machu v amazónskom pralese', sizes='100vw', cls='hero-foto') }}
+  <div class="wrap hero-obsah">
+    <p class="stitok">Peru · Amazónia · Andy</p>
+    <h1>Zažite silu Amazónie a objavte tajomstvá peruánskych šamanov</h1>
+    <p class="uvod">Prírodné produkty priamo z peruánskej Amazónie a Ánd: maca, aguaje, dračia krv, amazónske čaje, ceremoniálne kakao a Palo Santo.</p>
+    <p class="akcie"><a class="btn" href="#produkty">Pozrieť produkty</a><a class="odkaz-svetly" href="#potreby">Vybrať podľa potreby</a></p>
+  </div>
+  <p class="hero-pas wrap">Doprava zdarma nad 75 € · Prijímame online platby</p>
+</section>
+
+<section class="sekce" id="produkty">
+  <div class="wrap">
+    <header class="sek-hlava">
+      <h2>Z pralesa do Vašej kuchyne</h2>
+      <p>Výber z ponuky. Kapsule, prášky, tinktúry a Palo Santo od menších výrobcov z Peru.</p>
+    </header>
+    <ul class="vzorky" role="list">
+      {% for p in data.produkty %}
+      <li class="vzorka">
+        <div class="vzorka-foto">{{ img(p.foto ~ ('.jpg' if p.foto in ['maca','chanca','aguaje','guanabana','sacha','caihua','palosanto','sangruna','unadegato'] else '.png'), p.nazev, sizes='(min-width: 60rem) 22rem, 46vw') }}</div>
+        <h3>{{ p.nazev }}</h3>
+        <p>{{ p.popis }}</p>
+        <p class="forma">{{ p.forma }}</p>
+      </li>
+      {% endfor %}
+    </ul>
+    <p class="poznamka-sek">Kompletnú ponuku a ceny nájdete na amazonika.sk.</p>
+  </div>
+</section>
+
+<section class="sekce tmava" id="potreby">
+  <div class="wrap potreby-obal">
+    <header class="sek-hlava">
+      <h2>Vyberte si podľa toho, čo hľadáte</h2>
+      <p>Rovnako ako v e-shope: produkty roztriedené podľa zdravotných oblastí.</p>
+    </header>
+    <ul class="potreby" role="list">
+      {% for p in data.potreby %}
+      <li><h3>{{ p.nazev }}</h3><p>{{ p.text }}</p></li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="sekce" id="pribeh">
+  <div class="wrap pribeh">
+    <div class="pribeh-foto">
+      {{ img('kakao.png', 'Žena v slamenom klobúku pri kakaovníku v amazónskej džungli', sizes='(min-width: 60rem) 34rem, 100vw') }}
+    </div>
+    <div class="pribeh-text">
+      <h2>Cesta vitality a harmónie</h2>
+      <p>Naše produkty sú starostlivo vybrané a vytvorené s ohľadom na tradičné techniky a prírodné zložky, ktoré Amazónia ponúka. Ponúkame Vám možnosť zažiť silu prírody priamo vo Vašich rukách.</p>
+      <p>Ceremoniálne kakao z odrody Criollo z divokej džungle peruánskej provincie Amazonas, vonné tyčinky ručne vyrábané malými výrobcami a ručne modelované šálky z Ateliéru Šťastia v Topoľčanoch.</p>
+      <p><a class="btn btn-tmavy" href="#kontakt">Spýtať sa na produkt</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="sekce pas-foto">
+  {{ img('les-sada.png', 'Tri balenia produktov Amazonika v tropickom lese', sizes='100vw') }}
+</section>
+
+<section class="sekce" id="kontakt">
+  <div class="wrap kontakt">
+    <div>
+      <h2>Napíšte nám</h2>
+      <p>Neviete si vybrať, alebo sa chcete spýtať na zloženie? Odpíšeme Vám e-mailom.</p>
+      <p><a href="mailto:{{ site.kontakt.email }}">{{ site.kontakt.email }}</a></p>
+    </div>
+    <form class="formular" method="post" data-demo="1" data-endpoint="">
+      <label>Meno <input name="jmeno" autocomplete="name" required></label>
+      <label>E-mail <input name="email" type="email" autocomplete="email" required></label>
+      <label>Správa <textarea name="zprava" rows="5" required></textarea></label>
+      <div class="past" aria-hidden="true"><label>Nevypĺňať <input name="_gotcha" tabindex="-1" autocomplete="off"></label></div>
+      <button class="btn" type="submit">Odoslať</button>
+      <p class="formular-stav" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+{% endblock %}

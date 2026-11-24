@@ -1,0 +1,54 @@
+{
+  "slug": "sk-amazonika",
+  "nazev": "Amazonika",
+  "url": "https://webhunter-navrhy.github.io/sk-amazonika/",
+  "base": "/sk-amazonika/",
+  "lang": "sk",
+  "popis": "Amazonika: byliny, superpotraviny, ceremoniálne kakao a Palo Santo z peruánskej Amazónie. Slovenský e-shop od NAVIGA, s. r. o., Piešťany.",
+  "navrh": true,
+  "domena": "",
+  "og_image": "hero.jpg",
+  "logo": "img/logo-svetle.png",
+  "theme_color": "#10241a",
+  "typ": "Store",
+  "ico": "43846432",
+  "kontakt": {
+    "email": "ahoj@amazonika.sk",
+    "telefon": "",
+    "adresa": {
+      "ulice": "",
+      "psc": "",
+      "mesto": "Piešťany",
+      "zeme": "SK"
+    }
+  },
+  "oteviraci_doba": [],
+  "sameas": [
+    "https://www.facebook.com/amazonika.sk",
+    "https://www.instagram.com/amazonika.sk/"
+  ],
+  "cenove_rozpeti": "",
+  "formular": {
+    "endpoint": "",
+    "demo": true,
+    "predmet": "Správa z webu Amazonika"
+  },
+  "nav": [
+    {
+      "text": "Produkty",
+      "href": "#produkty"
+    },
+    {
+      "text": "Podľa potreby",
+      "href": "#potreby"
+    },
+    {
+      "text": "Príbeh",
+      "href": "#pribeh"
+    },
+    {
+      "text": "Kontakt",
+      "href": "#kontakt"
+    }
+  ]
+}
